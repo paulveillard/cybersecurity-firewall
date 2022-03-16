@@ -25,6 +25,20 @@ Now thought of as a “traditional” firewall, a stateful inspection firewall a
 A UTM device typically combines, in a loosely coupled way, the functions of a stateful inspection firewall with intrusion prevention and antivirus. It may also include additional services and often cloud management. UTMs focus on simplicity and ease of use.
 
 
+### Next-generation firewall (NGFW)
+
+Firewalls have evolved beyond simple packet filtering and stateful inspection. Most companies are deploying next-generation firewalls to block modern threats such as advanced malware and application-layer attacks.
+
+According to Gartner, Inc.’s definition, a next-generation firewall must include:
+
+    Standard firewall capabilities like stateful inspection
+    Integrated intrusion prevention
+    Application awareness and control to see and block risky apps
+    Upgrade paths to include future information feeds
+    Techniques to address evolving security threats
+
+
+
 
 ## Table of Contents:
 
