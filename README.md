@@ -10,6 +10,20 @@ Firewalls have been a first line of defense in network security for over 25 year
 > A firewall can be hardware, software, or both.
 
 
+## Types of Firewall
+
+### Proxy firewall
+
+An early type of firewall device, a proxy firewall serves as the gateway from one network to another for a specific application. Proxy servers can provide additional functionality such as content caching and security by preventing direct connections from outside the network. However, this also may impact throughput capabilities and the applications they can support.
+
+### Stateful inspection firewall
+
+Now thought of as a “traditional” firewall, a stateful inspection firewall allows or blocks traffic based on state, port, and protocol. It monitors all activity from the opening of a connection until it is closed. Filtering decisions are made based on both administrator-defined rules as well as context, which refers to using information from previous connections and packets belonging to the same connection.
+
+### Unified threat management (UTM) firewall
+
+A UTM device typically combines, in a loosely coupled way, the functions of a stateful inspection firewall with intrusion prevention and antivirus. It may also include additional services and often cloud management. UTMs focus on simplicity and ease of use.
+
 
 
 ## Table of Contents:
