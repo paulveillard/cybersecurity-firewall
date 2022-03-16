@@ -1,6 +1,14 @@
-# Web Application Firewall
+# Firewall
 
-### Contents:
+
+
+
+
+
+## Table of Contents:
+
+
+### Web Application Firewall
 - [Introduction](#introduction)
     - [How WAFs Work](#how-wafs-work)
     - [Operation Modes](#operation-modes)
