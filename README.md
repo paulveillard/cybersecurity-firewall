@@ -2,7 +2,7 @@
 An ongoing & curated collection of awesome software best practices and techniques, libraries and frameworks, E-books and videos, websites, blog posts, links to github Repositories, technical guidelines and important resources about Firewall in Cybersecurity.
 > Thanks to all contributors, you're awesome and wouldn't be possible without you! Our goal is to build a categorized community-driven collection of very well-known resources.
 
-## What Is a Firewall?
+##  `What Is a Firewall? `
 
 A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules.
 
@@ -11,22 +11,22 @@ Firewalls have been a first line of defense in network security for over 25 year
 > A firewall can be hardware, software, or both.
 
 
-## Types of Firewall
+##  `Types of Firewall `
 
-### Proxy firewall
+###  `Proxy firewall `
 
 An early type of firewall device, a proxy firewall serves as the gateway from one network to another for a specific application. Proxy servers can provide additional functionality such as content caching and security by preventing direct connections from outside the network. However, this also may impact throughput capabilities and the applications they can support.
 
-### Stateful inspection firewall
+###  `Stateful inspection firewall `
 
 Now thought of as a “traditional” firewall, a stateful inspection firewall allows or blocks traffic based on state, port, and protocol. It monitors all activity from the opening of a connection until it is closed. Filtering decisions are made based on both administrator-defined rules as well as context, which refers to using information from previous connections and packets belonging to the same connection.
 
-### Unified threat management (UTM) firewall
+###  `Unified threat management (UTM) firewall `
 
 A UTM device typically combines, in a loosely coupled way, the functions of a stateful inspection firewall with intrusion prevention and antivirus. It may also include additional services and often cloud management. UTMs focus on simplicity and ease of use.
 
 
-### Next-generation firewall (NGFW)
+###  `Next-generation firewall (NGFW) `
 
 Firewalls have evolved beyond simple packet filtering and stateful inspection. Most companies are deploying next-generation firewalls to block modern threats such as advanced malware and application-layer attacks.
 
@@ -39,7 +39,7 @@ According to Gartner, Inc.’s definition, a next-generation firewall must inclu
     Techniques to address evolving security threats
 
 
-### Threat-focused NGFW
+###  `Threat-focused NGFW `
 
 These firewalls include all the capabilities of a traditional NGFW and also provide advanced threat detection and remediation. With a threat-focused NGFW you can:
 
@@ -49,12 +49,12 @@ These firewalls include all the capabilities of a traditional NGFW and also prov
     Greatly decrease the time from detection to cleanup with retrospective security that continuously monitors for suspicious activity and behavior even after initial inspection
     Ease administration and reduce complexity with unified policies that protect across the entire attack continuum
 
-### Virtual firewall
+### V `irtual firewall `
 
 A virtual firewall is typically deployed as a virtual appliance in a private cloud (VMware ESXi, Microsoft Hyper-V, KVM) or public cloud (AWS, Azure, Google, Oracle) to monitor and secure traffic across physical and virtual networks. A virtual firewall is often a key component in software-defined networks (SDN). 
 
 
-## Table of Contents:
+##  `Table of Contents `
 
 
 - [Web Application Firewall](#web-application-firewall)
