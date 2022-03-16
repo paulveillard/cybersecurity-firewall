@@ -4,7 +4,7 @@ An ongoing & curated collection of awesome software best practices and technique
 
 ##  `What Is a Firewall? `
 
-A firewall is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules.
+A [firewall](https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html) is a network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules.
 
 Firewalls have been a first line of defense in network security for over 25 years. They establish a barrier between secured and controlled internal networks that can be trusted and untrusted outside networks, such as the Internet. 
 
