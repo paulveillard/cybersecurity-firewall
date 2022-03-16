@@ -38,39 +38,52 @@ According to Gartner, Inc.’s definition, a next-generation firewall must inclu
     Techniques to address evolving security threats
 
 
+### Threat-focused NGFW
+
+These firewalls include all the capabilities of a traditional NGFW and also provide advanced threat detection and remediation. With a threat-focused NGFW you can:
+
+    Know which assets are most at risk with complete context awareness
+    Quickly react to attacks with intelligent security automation that sets policies and hardens your defenses dynamically
+    Better detect evasive or suspicious activity with network and endpoint event correlation
+    Greatly decrease the time from detection to cleanup with retrospective security that continuously monitors for suspicious activity and behavior even after initial inspection
+    Ease administration and reduce complexity with unified policies that protect across the entire attack continuum
+
+### Virtual firewall
+
+A virtual firewall is typically deployed as a virtual appliance in a private cloud (VMware ESXi, Microsoft Hyper-V, KVM) or public cloud (AWS, Azure, Google, Oracle) to monitor and secure traffic across physical and virtual networks. A virtual firewall is often a key component in software-defined networks (SDN). 
 
 
 ## Table of Contents:
 
 
-### Web Application Firewall
-- [Introduction](#introduction)
-    - [How WAFs Work](#how-wafs-work)
-    - [Operation Modes](#operation-modes)
-- [Testing Methodology](#testing-methodology)
-    - [Where To Look](#where-to-look)
-    - [Detection Techniques](#detection-techniques)
-- [WAF Fingerprints](#waf-fingerprints)
-- [Evasion Techniques](#evasion-techniques)
-    - [Fuzzing/Bruteforcing](#fuzzingbruteforcing)
-    - [Regex Reversing](#regex-reversing)
-    - [Obfuscation/Encoding](#obfuscation)
-    - [Browser Bugs](#browser-bugs)
-    - [HTTP Header Spoofing](#request-header-spoofing)
-    - [Google Dorks Approach](#google-dorks-approach)
-- [Known Bypasses](#known-bypasses)
-- [Awesome Tooling](#awesome-tools)
-    - [Fingerprinting](#fingerprinting)
-    - [Testing](#testing)
-    - [Evasion](#evasion)
-- [Blogs & Writeups](#blogs-and-writeups)
-- [Video Presentations](#video-presentations)
-- [Research Presentations & Papers](#presentations--research-papers)
-    - [Research Papers](#research-papers)
-    - [Presentation Slides](#presentations)
-- [Licensing & Credits](#credits--license)
+- [Web Application Firewall](#web-application-firewall)
+    - [Introduction](#introduction)
+        - [How WAFs Work](#how-wafs-work)
+        - [Operation Modes](#operation-modes)
+    - [Testing Methodology](#testing-methodology)
+        - [Where To Look](#where-to-look)
+        - [Detection Techniques](#detection-techniques)
+    - [WAF Fingerprints](#waf-fingerprints)
+    - [Evasion Techniques](#evasion-techniques)
+        - [Fuzzing/Bruteforcing](#fuzzingbruteforcing)
+        - [Regex Reversing](#regex-reversing)
+        - [Obfuscation/Encoding](#obfuscation)
+        - [Browser Bugs](#browser-bugs)
+        - [HTTP Header Spoofing](#request-header-spoofing)
+        - [Google Dorks Approach](#google-dorks-approach)
+    - [Known Bypasses](#known-bypasses)
+    - [Awesome Tooling](#awesome-tools)
+        - [Fingerprinting](#fingerprinting)
+        - [Testing](#testing)
+        - [Evasion](#evasion)
+    - [Blogs & Writeups](#blogs-and-writeups)
+    - [Video Presentations](#video-presentations)
+    - [Research Presentations & Papers](#presentations--research-papers)
+        - [Research Papers](#research-papers)
+        - [Presentation Slides](#presentations)
+    - [Licensing & Credits](#credits--license)
 
-## Introduction:
+## Web Application Firewall
 ### How WAFs Work:
 - Using a set of rules to distinguish between normal requests and malicious requests.
 - Sometimes they use a learning mode to add rules automatically through learning about user behaviour.
