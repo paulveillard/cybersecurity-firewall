@@ -84,7 +84,7 @@ A virtual firewall is typically deployed as a virtual appliance in a private clo
         - [Presentation Slides](#presentations)
     - [Licensing & Credits](#credits--license)
 
-## Web Application Firewall
+## `Web Application Firewall`
 ### How WAFs Work:
 - Using a set of rules to distinguish between normal requests and malicious requests.
 - Sometimes they use a learning mode to add rules automatically through learning about user behaviour.
@@ -94,7 +94,7 @@ A virtual firewall is typically deployed as a virtual appliance in a private clo
 - __Positive Model (Whitelist based)__ - A whitelisting model only allows web traffic according to specifically configured criteria. For example, it can be configured to only allow HTTP GET requests from certain IP addresses. This model can be very effective for blocking possible cyber-attacks, but whitelisting will block a lot of legitimate traffic. Whitelisting model firewalls are probably best for web applications on an internal network that are designed to be used by only a limited group of people, such as employees.
 - __Mixed/Hybrid Model (Inclusive model)__ - A hybrid security model is one that blends both whitelisting and blacklisting. Depending on all sorts of configuration specifics, hybrid firewalls could be the best choice for both web applications on internal networks and web applications on the public internet.
 
-## Testing Methodology:
+## `Testing Methodology:`
 ### Where To Look:
 - Always look out for common ports that expose that a WAF, namely `80`, `443`, `8000`, `8008`, `8080` and `8088` ports.
     > __Tip:__ You can use automate this easily by commandline using tools like like [cURL](https://github.com/curl/curl).
